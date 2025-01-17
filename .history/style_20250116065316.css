@@ -1,0 +1,55 @@
+/* body or * */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+}
+
+header .logo {
+  font-size: 24px;
+}
+
+header nav a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+header nav a:hover {
+  color: #0077b6;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff url('ART.jpg') no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  position: relativ
+}
